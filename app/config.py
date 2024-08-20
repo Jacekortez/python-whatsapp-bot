@@ -6,14 +6,14 @@ import logging
 
 def load_configurations(app):
     load_dotenv()
-    app.config["ACCESS_TOKEN"] = os.getenv("ACCESS_TOKEN")
-    app.config["YOUR_PHONE_NUMBER"] = os.getenv("YOUR_PHONE_NUMBER")
+    app.config["ACCESS_TOKEN"] = os.getenv("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")
+    app.config["YOUR_PHONE_NUMBER"] = os.getenv("254720811796")
     app.config["APP_ID"] = os.getenv("APP_ID")
     app.config["APP_SECRET"] = os.getenv("APP_SECRET")
     app.config["RECIPIENT_WAID"] = os.getenv("RECIPIENT_WAID")
-    app.config["VERSION"] = os.getenv("VERSION")
-    app.config["PHONE_NUMBER_ID"] = os.getenv("PHONE_NUMBER_ID")
-    app.config["VERIFY_TOKEN"] = os.getenv("VERIFY_TOKEN")
+    app.config["VERSION"] = os.getenv("V1")
+    app.config["PHONE_NUMBER_ID"] = os.getenv("37.114.46.39:6160")
+    app.config["VERIFY_TOKEN"] = os.getenv("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")
 
 
 def configure_logging():
